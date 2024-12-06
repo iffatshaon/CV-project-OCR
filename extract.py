@@ -10,8 +10,3 @@ def extract_zip(zip_path, extract_to):
         # Extract all the contents to the specified folder
         zip_ref.extractall(extract_to)
     print(f"Extracted '{zip_path}' to '{extract_to}'")
-
-# Example usage
-zip_path = 'EnglishDataset.zip'  # Replace with your zip file path
-extract_to = 'Dataset/English'  # Replace with your desired output folder
-extract_zip(zip_path, extract_to)
