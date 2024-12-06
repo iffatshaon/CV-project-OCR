@@ -1,0 +1,5 @@
+/.venv
+/bilingual_ocr_combined_model.pth
+/bilingual_ocr_model.pth
+/Dataset
+/__pycache__
